@@ -1,3 +1,10 @@
+/**
+ * Input Handler Class
+ * Takes user input and executes the proper command or error
+ * Imports the HashMap utility to use a hash map
+ * @author Team Leaking Memory
+ * @author Warren Beagle, Garrison Davis, Nicholas Mims, Terric Taylor
+ */
 import java.util.HashMap;
 
 /**
