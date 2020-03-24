@@ -33,11 +33,13 @@ public class InputHandler {
 	 * @param data	The command typed into the console.
 	 */
 	public void inputEntered(String data) {
+		data = data.toLowerCase();
+		
 		//Checks if the entered input is a command.
 		if(commands.containsKey(data)) {
 			commands.get(data).execute();
 		} else {
-			System.out.println("Invalid Command!\n");
+			System.out.println("Sorry, we don't recognize that command");
 		}
 	}
 }
