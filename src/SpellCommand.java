@@ -1,3 +1,4 @@
+
 public class SpellCommand implements Command {
 	
 	private Document doc;
