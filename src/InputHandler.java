@@ -10,7 +10,7 @@ public class InputHandler {
 		commands.put("load", new LoadCommand(doc));
 		commands.put("save", new SaveCommand(doc));
 		commands.put("spell", new SpellCommand(doc));
-		//commands.put("print", new PrintCommand(doc));
+		commands.put("print", new PrintCommand(doc));
 	}
 	
 	public void inputEntered(String data) {
